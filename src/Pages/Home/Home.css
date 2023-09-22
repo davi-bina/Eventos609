@@ -1,0 +1,70 @@
+.App {
+  margin: 2rem 0;
+  padding: 0 5rem; /* mudei aqui */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5rem;
+}
+
+.App form {
+  font-size: 1.6rem;
+  padding: 3rem;
+
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+
+  width: 30rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.preview-img img{
+  width: 100%;
+  max-height: 15rem;
+}
+
+.App form div { /* pegando a div de dentro */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.App form input {
+  padding: 0.8rem;
+}
+
+.App .label-img input {
+  display: none;
+}
+
+.App .label-img label {
+  border: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+}
+
+.App form button {
+  padding: 1rem;
+  font-size: 1.4rem;
+  border: none;
+  background-color: rgb(154, 41, 39);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.App form button:hover{
+  background-color: rgb(220, 30, 30);
+}
+
+.container-eventos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 2rem;
+}
+
